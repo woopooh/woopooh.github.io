@@ -1,8 +1,14 @@
 import { DefaultTheme } from "vitepress";
 import { sidebarItem as criteriaForGoodCode } from "./criteria-for-good-code/sidebarItem.mjs";
+import { sidebarItem as tanstackQuery } from "./tanstack-query/sidebarItem.mjs";
+import { sidebarItem as zustand } from "./zustand/sidebarItem.mjs";
+import { sidebarItem as react } from "./react/sidebarItem.mjs";
 
 export function sidebar(): DefaultTheme.SidebarMulti {
   return {
-    "/frontend/": { base: "/frontend/", items: [criteriaForGoodCode()] },
+    "/frontend/": {
+      base: "/frontend/",
+      items: [criteriaForGoodCode(), react(), tanstackQuery(), zustand()],
+    },
   };
 }
