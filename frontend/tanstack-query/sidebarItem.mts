@@ -2,7 +2,7 @@ import { DefaultTheme } from "vitepress";
 
 export function sidebarItem(): DefaultTheme.SidebarItem {
   return {
-    text: "tanstack-query",
+    text: "TanStack Query",
     collapsed: true,
     items: [
       {

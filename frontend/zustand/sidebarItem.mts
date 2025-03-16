@@ -2,7 +2,7 @@ import { DefaultTheme } from "vitepress";
 
 export function sidebarItem(): DefaultTheme.SidebarItem {
   return {
-    text: "zustand",
+    text: "Zustand",
     collapsed: true,
     items: [
       {
