@@ -13,6 +13,10 @@ export function sidebarItem(): DefaultTheme.SidebarItem {
         text: "선억적으로 비동기 처리하기",
         link: "react/선언적으로-비동기-처리하기",
       },
+      {
+        text: "합성 컴포넌트 패턴 적용하기",
+        link: "react/합성-컴포넌트-패턴-적용하기",
+      },
     ],
   };
 }
