@@ -17,6 +17,10 @@ export function sidebarItem(): DefaultTheme.SidebarItem {
         text: "합성 컴포넌트 패턴 적용하기",
         link: "react/합성-컴포넌트-패턴-적용하기",
       },
+      {
+        text: "react-lazy 및 suspense를 사용한 코드 분할",
+        link: "react/react-lazy-및-suspense를-사용한-코드-분할",
+      },
     ],
   };
 }
