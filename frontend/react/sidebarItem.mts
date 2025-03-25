@@ -21,6 +21,10 @@ export function sidebarItem(): DefaultTheme.SidebarItem {
         text: "react-lazy 및 suspense를 사용한 코드 분할",
         link: "react/react-lazy-및-suspense를-사용한-코드-분할",
       },
+      {
+        text: "모던 CSS 알아보기",
+        link: "react/모던-css-알아보기",
+      },
     ],
   };
 }
