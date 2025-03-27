@@ -1,6 +1,7 @@
 import { DefaultTheme } from "vitepress";
 import { sidebarItem as criteriaForGoodCode } from "./criteria-for-good-code/sidebarItem.mjs";
 import { sidebarItem as react } from "./react/sidebarItem.mjs";
+import { sidebarItem as nextJs } from "./next-js/sidebarItem.mjs";
 import { sidebarItem as tanstackQuery } from "./tanstack-query/sidebarItem.mjs";
 import { sidebarItem as zustand } from "./zustand/sidebarItem.mjs";
 import { sidebarItem as redux } from "./redux/sidebarItem.mjs";
@@ -14,6 +15,7 @@ export function sidebar(): DefaultTheme.SidebarMulti {
       items: [
         criteriaForGoodCode(),
         react(),
+        nextJs(),
         tanstackQuery(),
         zustand(),
         redux(),
