@@ -24,9 +24,9 @@
 
 :::info
 
-- **First Paint**: 사용자가 빈 화면이 아닌 초기 UI 요소를 볼 수 있는 단계입니다. 이 시점에서는 기본적인 레이아웃이 렌더링되었지만, 주요 콘텐츠는 아직 표시되지 않았을 수 있습니다. 이를 **FCP(First Contentful Paint)**라고 합니다.
-- **Page Interactive**: 페이지가 완전히 하이드레이션(Hydration)되어 인터랙티브 요소가 정상적으로 작동하는 상태입니다. 이를 **TTI(Time to Interactive)**라고 합니다.
-- **Content Paint**: 데이터베이스에서 데이터를 가져와 사용자에게 핵심 콘텐츠를 렌더링한 상태입니다. 가장 중요한 시각적 요소가 표시되는 시점으로, 이를 **LCP(Largest Contentful Paint)**라고 합니다.
+- **First Paint**: 사용자가 빈 화면이 아닌 초기 UI 요소를 볼 수 있는 단계입니다. 이 시점에서는 기본적인 레이아웃이 렌더링되었지만, 주요 콘텐츠는 아직 표시되지 않았을 수 있습니다. 이를 FCP(First Contentful Paint)라고 합니다.
+- **Page Interactive**: 페이지가 완전히 하이드레이션(Hydration)되어 인터랙티브 요소가 정상적으로 작동하는 상태입니다. 이를 TTI(Time to Interactive)라고 합니다.
+- **Content Paint**: 데이터베이스에서 데이터를 가져와 사용자에게 핵심 콘텐츠를 렌더링한 상태입니다. 가장 중요한 시각적 요소가 표시되는 시점으로, 이를 LCP(Largest Contentful Paint)라고 합니다.
 
 :::
 
